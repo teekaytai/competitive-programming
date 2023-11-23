@@ -1,0 +1,1 @@
+print(w:=input(),w,w)
