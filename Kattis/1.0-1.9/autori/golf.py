@@ -1,0 +1,1 @@
+print(*filter(str.isupper,input()),sep='')
