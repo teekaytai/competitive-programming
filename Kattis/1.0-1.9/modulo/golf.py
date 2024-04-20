@@ -1,0 +1,1 @@
+print(len({int(x)%42for x in open(0)}))
