@@ -1,0 +1,11 @@
+a = set()
+b = set()
+c = set()
+d = set()
+for _ in range(n:=int(input())):
+    x, y = map(int, input().split())
+    a.add(x)
+    b.add(y)
+    c.add(x+y)
+    d.add(x-y)
+print('IN'*any(len(s)!=n for s in (a,b,c,d))+'CORRECT')
