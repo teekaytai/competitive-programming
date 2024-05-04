@@ -1,0 +1,6 @@
+input()
+*a, = map(int, input().split())
+input()
+*b, = map(int, input().split())
+m = min(c + b[x-1] for c in a for x in [int(x) for x in input().split()][1:])
+print(max(int(input())//m-1, 0))

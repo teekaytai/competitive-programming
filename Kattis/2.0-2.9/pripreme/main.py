@@ -1,0 +1,5 @@
+n = int(input())
+*a, = map(int, input().split())
+s = sum(a)
+m = max(a)
+print(s + max(2*m-s, 0))
