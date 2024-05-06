@@ -1,0 +1,5 @@
+a, b = map(int, input().split())
+c, d = map(int, input().split())
+x = int(input())
+t = abs(a-c) + abs(b-d)
+print('NY'[x>=t and (x-t)%2==0])
