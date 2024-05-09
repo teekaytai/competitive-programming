@@ -1,0 +1,5 @@
+n = int(input())
+*a, = map(int, input().split())
+I = sorted(range(n), key=a.__getitem__, reverse=True)
+if a[I[0]] <= sum(a) - a[I[0]]: print(*(i+1 for i in I))
+else: print('impossible')
